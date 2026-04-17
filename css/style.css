@@ -64,3 +64,15 @@ textarea {
     height: 40px;
     line-height: 45px;
 }
+
+.form-body {
+    padding: 30px;
+}
+
+.form-titulo {
+    margin-bottom: 15px;
+} 
+
+.form-body p {
+    margin-bottom: 15px;
+}
