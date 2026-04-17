@@ -13,7 +13,7 @@ h1, h2, h3, h4 ,h5 , h6 {
 }
 
 p, label {
-    color: rgb(248, 83, 83);
+    color: rgb(0, 0, 0);
 }
 
 input {
@@ -83,4 +83,8 @@ textarea {
 
 .caixaInputs {
     margin-bottom: 35px;
+}
+
+.block {
+
 }
