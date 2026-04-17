@@ -5,15 +5,15 @@
 }
 
 body {
-    background-color: rgb(241, 210, 210);
+    background-color: rgb(255, 204, 204);
 }
 
 h1, h2, h3, h4 ,h5 , h6 {
-    color: thistle;
+    color: rgb(253, 38, 38);
 }
 
 p, label {
-    color: antiquewhite;
+    color: rgb(248, 83, 83);
 }
 
 input {
@@ -25,3 +25,4 @@ input {
 input[type="text"], input[type="number"], input[type="date"], input[type="file"], textarea {
     width: 400px;
 }
+
