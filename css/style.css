@@ -76,3 +76,7 @@ textarea {
 .form-body p {
     margin-bottom: 15px;
 }
+
+.campo-obrigatorio {
+    color: #e60101;
+}
