@@ -42,7 +42,7 @@ textarea {
 }
 
 .form-container {
-    background-color: #ffffff;
+    background-color: #e9e8e8;
     width: 60%;
     margin: 0 auto;
     position: relative;
@@ -79,4 +79,8 @@ textarea {
 
 .campo-obrigatorio {
     color: #e60101;
+}
+
+.caixaInputs {
+    margin-bottom: 35px;
 }
