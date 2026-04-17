@@ -18,7 +18,7 @@ p, label {
 
 input {
     border: none;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #fcf9f9;
     padding: 10px 0;
 }
 
@@ -50,7 +50,7 @@ textarea {
 }
 
 .form-header {
-    border-bottom: 1px solid #ffffffc0;
+    border-bottom: 1px solid #ffffffd0;
     height: 45px;
 }
 
