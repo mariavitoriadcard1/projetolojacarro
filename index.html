@@ -90,24 +90,31 @@
                             </li>
                         </ul>
                     </div>
-                    <ul class="listaOpcionais">
-                        <li>
-                            <input type="checkbox" name="opcional[]" id="assistentedepista" value="assistentedepista">
-                            <label for="assistentedepista">Assistente de Pista</label>
-                        </li>
-                        <li>
-                            <input type="checkbox" name="opcional[]" id="partidasemchave" value="partidasemchave">
-                            <label for="partidasemchave">Partida sem Chave</label>
-                        </li>
-                        <li>
-                            <input type="checkbox" name="opcional[]" id="smartphone" value="smartphone">
-                            <label for="smartphone">Integração com Celular</label>
-                        </li>
-                        <li>
-                            <input type="checkbox" name="opcional[]" id="bancocouro" value="bancocouro">
-                            <label for="bancocouro">Banco de Couro</label>
-                        </li>
-                    </ul>
+                    <div class="caixaOpcionais">
+                        <ul class="listaOpcionais">
+                            <li>
+                                <input type="checkbox" name="opcional[]" id="assistentedepista" value="assistentedepista">
+                                <label for="assistentedepista">Assistente de Pista</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="opcional[]" id="partidasemchave" value="partidasemchave">
+                                <label for="partidasemchave">Partida sem Chave</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="opcional[]" id="smartphone" value="smartphone">
+                                <label for="smartphone">Integração com Celular</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="opcional[]" id="bancocouro" value="bancocouro">
+                                <label for="bancocouro">Banco de Couro</label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="caixaInputs">
+                        <p>Fotos do Carro <span class="campo-obrigatorio">*</span></p>
+                        <input type="file" name="imagem" id="imagem" multiple accept="image/png, image/jpg" required>
+                    </div>
+                    <input type="submit" value="Enviar" class="btn-submit">
                 </form>
             </div>
         </div>
