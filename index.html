@@ -20,7 +20,7 @@
             <div class="form-body">
                 <h1 class="form-titulo">Venda fácil seu carro</h1>
                 <p>Descreva as características do seu carro e marque os opcionaisque ele possui</p>
-                <form>
+                <form onsubmit="salvarCarros(event)">
                     <div class="caixaInputs">
                         <label for="title">Título do anúncio<span class="campo-obrigatorio">*</span></label>
                         <input type="text" name="title" id="title" class="block" placeholder="Digite um título"
@@ -116,8 +116,12 @@
                     </div>
                     <input type="submit" value="Enviar" class="btn-submit">
                 </form>
+                <hr>
+                <h2>Carros Cadastrados</h2>
+                <div id="ListarCarros"></div>
             </div>
         </div>
+        <script src="script/script.js"></script>
     </div>
 </body>
 
