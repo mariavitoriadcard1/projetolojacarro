@@ -61,8 +61,8 @@ textarea {
     text-align: center;
     margin: 0 auto;
     text-transform: uppercase;
-    height: 40px;
-    line-height: 45px;
+    height: 45px;
+    list-style: 45px;
 }
 
 .form-body {
@@ -74,7 +74,7 @@ textarea {
 } 
 
 .form-body p {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .campo-obrigatorio {
