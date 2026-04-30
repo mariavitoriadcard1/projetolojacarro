@@ -115,3 +115,12 @@ textarea {
     color: #8a0000;
     border-color: #8a0000;
 }
+
+hr {
+    margin-top: 20px;
+    height: 3px;
+    background: to right, transparent, rgb(199, 0, 0), transparent;
+    margin: 20px 0;
+    border: none;
+    
+}
