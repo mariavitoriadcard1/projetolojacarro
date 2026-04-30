@@ -119,8 +119,8 @@ textarea {
 hr {
     margin-top: 20px;
     height: 3px;
-    background: to right, transparent, rgb(199, 0, 0), transparent;
+    background: linear-gradient(to right, transparent, rgb(199, 0, 0), transparent);
     margin: 20px 0;
     border: none;
-    
+
 }
