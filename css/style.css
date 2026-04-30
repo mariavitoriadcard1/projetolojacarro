@@ -133,9 +133,9 @@ hr {
 
 .card {
     width: 250px;
-    background: rgb(255, 0, 0);
+    background: rgb(240, 144, 144);
     padding: 10px;
-    box-shadow: 0 2px 5px rgb(255, 48, 48);
+    box-shadow: 0 2px 5px rgb(168, 33, 33);
 }
 
 .card img {
