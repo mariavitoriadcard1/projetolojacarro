@@ -122,5 +122,23 @@ hr {
     background: linear-gradient(to right, transparent, rgb(199, 0, 0), transparent);
     margin: 20px 0;
     border: none;
+}
 
+#listarCarros {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    width: 250px;
+    background: rgb(255, 0, 0);
+    padding: 10px;
+    box-shadow: 0 2px 5px rgb(255, 48, 48);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
 }
